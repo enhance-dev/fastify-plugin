@@ -1,0 +1,14 @@
+{
+  "name": "@enhance/fastify-plugin",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node preview.mjs"
+  },
+  "devDependencies": {
+    "fastify": "^4.2.0"
+  },
+  "dependencies": {
+    "@enhance/arc-plugin-enhance": "latest"
+  }
+}
