@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "main": "index.mjs",
   "scripts": {
-    "start": "node preview.mjs"
-  },
-  "devDependencies": {
-    "fastify": "^4.2.0"
+    "lint": "eslint .",
+    "test": "npm run lint && echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@enhance/arc-plugin-enhance": "latest"
+    "@enhance/arc-plugin-enhance": "^5.0.1"
+  },
+  "devDependencies": {
+    "@architect/eslint-config": "^2.1.1",
+    "eslint": "^8.35.0",
+    "fastify": "^4.13.0"
+  },
+  "eslintConfig": {
+    "extends": "@architect/eslint-config"
   }
 }
